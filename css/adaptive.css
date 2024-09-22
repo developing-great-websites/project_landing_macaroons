@@ -1,0 +1,427 @@
+@media screen and (max-width: 1169px) {
+    .header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header .menu {
+        margin: 0;
+    }
+
+    .product-items {
+        grid-template-columns: repeat(2, 263px);
+        justify-content: center;
+    }
+
+    .basic-descriptions {
+        grid-template-columns: repeat(2, 220px);
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .main {
+        padding: 97px 0 420px 0;
+        position: relative;
+    }
+
+    .main .container {
+        max-width: 768px;
+        display: inline-block;
+    }
+
+    .main-info {
+        max-width: 768px;
+    }
+
+    .main-info h1 {
+        margin-right: 0;
+    }
+
+    .main-text {
+        margin-top: 74px;
+        max-width: 345px;
+    }
+
+    .main-action {
+        margin-top: 41px;
+    }
+
+    .main-image {
+        position: absolute;
+        text-align: right;
+        bottom: 62px;
+        right: 55px;
+        width: auto;
+        height: auto;
+    }
+
+    .basic .container {
+        max-width: 768px;
+    }
+
+    .basic-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .basic-info-text {
+        max-width: 670px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .basic-info-text h2 {
+        max-width: 480px;
+        margin-right: 0;
+        display: inline-block;
+    }
+
+    .basic-info-image {
+        align-self: center;
+    }
+
+    .basic-info-image img {
+        width: 302px;
+        height: 183px;
+    }
+
+    .basic .description {
+        text-align: center;
+    }
+
+    .description-number {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .products {
+        padding: 120px 0 0;
+    }
+
+    .product-item {
+        margin-bottom: 140px;
+    }
+
+    .order .container {
+        display: block;
+        position: relative;
+    }
+
+    .order-image {
+        position: absolute;
+        bottom: -100px;
+        right: 40px;
+    }
+
+    .order .container .strawberry .strawberry-1 {
+        top: 200px;
+        left: 350px;
+    }
+
+    .order .container .strawberry .strawberry-2 {
+        top: 20px;
+        left: 600px;
+    }
+
+    .order-info {
+        max-width: 410px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 425px;
+        row-gap: 20px;
+    }
+
+    .menu {
+        order: 3;
+        margin-top: 20px;
+    }
+
+    .header .phone {
+        margin-left: 20px;
+    }
+
+    .main {
+        padding-bottom: 43px;
+    }
+
+    .main .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 38px;
+    }
+
+    .main-info {
+        position: relative;
+        z-index: 2;
+    }
+
+    .main-info h1 {
+        font-size: 52px;
+        text-align: center;
+    }
+
+    .main-text {
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .main-action {
+        text-align: center;
+    }
+
+    .main-image {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .main-image img {
+        width: 100%;
+
+    }
+
+    .basic .container {
+        max-width: 425px;
+    }
+
+    .basic-info-text {
+        max-width: 315px;
+    }
+
+    .basic-info-text h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .basic-info-about {
+        font-size: 16px;
+    }
+
+    .basic-info-image {
+        text-align: center;
+    }
+
+    .basic-info-image img {
+        width: 302px;
+        height: 183px;
+    }
+
+    .basic-descriptions {
+        grid-template-columns: repeat(auto-fill, minmax(165px, 165px));
+        grid-column-gap: 20px;
+        grid-row-gap: 36px;
+    }
+
+    .products .container {
+        max-width: 425px;
+    }
+
+    .product-items {
+        display: grid;
+        grid-template-columns: repeat(1, 375px);
+        place-items: center;
+    }
+
+    .order-image {
+        display: none;
+    }
+
+    .footer .phone {
+        font-size: 12px;
+    }
+
+    .footer .socials-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .header .container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: rgba(47, 47, 47, 0.79);
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu-item {
+        margin: 20px 0;
+    }
+
+    .header .phone {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+        z-index: 10;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #8213287F;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .main .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-image {
+        position: relative;
+        bottom: auto;
+        right: auto;
+    }
+
+    .main-info h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .main-text {
+        font-size: 16px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .main-action {
+        text-align: center;
+    }
+
+    .basic-info-text {
+        max-width: 345px;
+    }
+
+    .basic-info-text h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .basic-info-about {
+        font-size: 16px;
+    }
+
+
+    .products h2 {
+        font-size: 30px;
+    }
+
+    .order-info {
+        max-width: 345px;
+        margin-left: 0;
+    }
+
+    .order-info h2 {
+        font-size: 30px;
+    }
+
+    .order-info-text {
+        font-size: 16px;
+    }
+
+    .order-image img {
+        display: none;
+    }
+
+    .order .container .strawberry .strawberry-1 {
+        top: 200px;
+        left: 300px;
+    }
+
+    .footer .container {
+        grid-template-areas:
+        "logo"
+        "phone"
+        "social"
+        "rights";
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .footer .logo {
+        text-align: center;
+    }
+
+    .footer .phone {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .basic-descriptions {
+        grid-template-columns: repeat(2, 165px);
+        grid-column-gap: 20px;
+        grid-row-gap: 36px;
+    }
+
+    .description .description-title {
+        font-size: 18px;
+    }
+
+    .description .description-text {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+    .main-image {
+        text-align: center;
+    }
+
+    .main-image::before, .main-image::after {
+        left: 50%;
+    }
+
+    .basic-descriptions {
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 36px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+
+
+}
